@@ -3,12 +3,20 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1>People entered:</h1>
-        <h2 id="count-el">0</h2>
-        <button id="increment-btn" onclick="increment()">INCREMENT</button>
-        <button id="save-btn" onclick="save()">SAVE</button>
-        <p id="save-el">Previous entries: </p>
-        <p>Total people: <span id="total-el"></spann></p>
-        <script src="index.js"></script>
+        <div class="container">
+            <h1>Advanced People Counter</h1>
+            <h2 id="count-el">0</h2>
+            <div class="button-inline">
+                <button id="increment-btn" onclick="increment()">INCREMENT <span id="arrow">➔</span></button>
+            </div>
+            <div class="button-inline">
+                <button id="save-btn" onclick="save()">SAVE <span id="arrow">➔</span></button>
+            </div>
+            <p id="save-el">Previous entries: </p>
+            <p>Total people: <span id="total-el"></span></p>
+            <script src="index.js"></script>
+            <button id="reset-btn" onclick="reset()">RESET <span id="arrow">➔</span></button>
+
+        </div>
     </body>
 </html>

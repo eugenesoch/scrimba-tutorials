@@ -22,4 +22,11 @@ function save() {
     totalEl.textContent + all
     
 }
+function reset () {
+    count = 0
+    saveEl.textContent = 0
+    countEl.textContent = 0
+    totalEl.textContent = 0
+
+}
 
